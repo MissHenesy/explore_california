@@ -1,0 +1,13 @@
+# This file tells Git which files and directories to ignore.
+*.txt
+.DS_store
+*.zip
+*.gz
+log/*.log
+log/*.log.[0-9]
+assets/photoshop/
+assets/videos/
+
+# This is a list of the exceptions (the things we want Git 
+# to track in the directories we told it to ignore.)
+!assets/videos/tour_*.mp4
